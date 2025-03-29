@@ -1,20 +1,18 @@
 module.exports = (client) => {
-    client.variables({
-        prefix: "!",
-        corEmbed: "#FF0000",
-        corErro: "#FF0000",
-        corSucesso: "#00FF00",
-        pronome: false,
-        registro: {},
-}, "main");
-
-client.variables({
-    saldo: 0,
-    banco: 0,
-    enviados: 0,
-    recebidos: 0,
-    roubados: 0,
-    crimeSuccess: 0,
-    crimeFail: 0,
-}, "economia");
-}
+  client.variables(
+    {
+      prefix: ".",
+      corEmbed: "#FFFFFF",
+      corErro: "#FF0000",
+      corSucesso: "#00FF00",
+      pronome: false,
+      registro: false,
+      registroIds: [],
+      banido: false,
+      banidoIds: [],
+      blackList: 0,
+      saldo: 0,
+      banco: 0,
+    },"main"
+  );
+};

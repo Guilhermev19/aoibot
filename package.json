@@ -12,6 +12,7 @@
   "description": "",
   "dependencies": {
     "@akarui/aoi.db": "^2.3.3",
+    "aoi.canvas": "^3.0.10",
     "aoi.js": "^6.9.0",
     "nodemon": "^3.1.9"
   }
